@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --preto: #22223bff;
+    --ultra-violrta: #4a4e69ff;
+    --rosa-claro: #9a8c98ff;
+    --marrom: #c9ada7ff;
+    --beje: #f2e9e4ff;
+    --fonte-titulo: "Playfair Display", serif;
+    --fonte-texto: "Afacad Flux", sans-serif;
+}
+
+body{
+    background-color: var(--beje);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--marrom);
+
+}
