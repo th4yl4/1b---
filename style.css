@@ -6,17 +6,17 @@
 }
 
 :root{
-    --preto: #22223bff;
-    --ultra-violrta: #4a4e69ff;
-    --rosa-claro: #9a8c98ff;
-    --marrom: #c9ada7ff;
-    --beje: #f2e9e4ff;
+    --preto: rgb(3, 3, 10);
+    --cinza: rgb(116, 117, 123);
+    --dourado: rgb(198, 149, 109);
+    --beje: rgb(255, 229, 223);
+    --branco: rgb(234, 234, 234);
     --fonte-titulo: "Playfair Display", serif;
     --fonte-texto: "Afacad Flux", sans-serif;
 }
 
 body{
-    background-color: var(--beje);
+    background-color: var(--branco);
     font-family: var(--fonte-texto);
 }
 
@@ -24,6 +24,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--marrom);
+    background-color: var(--cinza);
 
+}
+
+.cabecalho-logo{
+    width: 16%;
+    border-radius: 100%;
+    padding: 1em;
+}
+
+.cabecalho-link{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+.cabecalho-link:hover{
+    color: var(--dourado);
+    font-size: 1.9em;
+    transition: 0.3s;
 }
