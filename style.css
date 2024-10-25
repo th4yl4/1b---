@@ -8,7 +8,7 @@
 :root{
     --preto: rgb(3, 3, 10);
     --cinza: rgb(116, 117, 123);
-    --dourado: rgb(198, 149, 109);
+    --dourado: rgb(185, 125, 76);
     --beje: rgb(255, 229, 223);
     --branco: rgb(234, 234, 234);
     --fonte-titulo: "Playfair Display", serif;
@@ -24,8 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--cinza);
-
+    background-color: var(--cinza)
 }
 
 .cabecalho-logo{
@@ -45,4 +44,40 @@ body{
     color: var(--dourado);
     font-size: 1.9em;
     transition: 0.3s;
+}
+
+.principal-capa{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.principal-capa_titulo{
+    font-size: 3em;
+    font-family: var(--preto);
+}
+.principal-capa_texto{
+    font-size: 2em;
+}
+.principal-capa_imagem{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.principal-capa_combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.principal-capa_botao{
+    background-color: var(--dourado);
+    text-decoration-line: none;
+    padding: 1.3em;
+    color: var(--preto);
+    margin-top: 2em;
+    border-radius: 10px;
+    font-size: 1.2em;
 }
