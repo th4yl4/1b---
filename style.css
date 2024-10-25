@@ -73,11 +73,11 @@ body{
 }
 
 .principal-capa_botao{
-    background-color: var(--dourado);
+    background-color: var(--beje);
     text-decoration-line: none;
     padding: 1.3em;
     color: var(--preto);
-    margin-top: 2em;
+    margin-top: 1em;
     border-radius: 10px;
     font-size: 1.2em;
 }
